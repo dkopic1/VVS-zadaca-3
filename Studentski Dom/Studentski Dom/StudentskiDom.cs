@@ -98,8 +98,16 @@ namespace ClassLibrary1
             {
                 if (s.Kapacitet == zeljeniKapacitet)
                     foreach (Soba s2 in Sobe)
+                    {
                         if (s2.Stanari.Count < zeljeniKapacitet && s2 == s)
                             slobodnaSoba = s;
+                        //tuning logickih izraza
+                        if (slobodnaSoba == null)
+                            break;
+                    }
+                //tuning logickih izraza
+                if (slobodnaSoba == null)
+                    break; 
             }
             if (slobodnaSoba == null && !fleksibilnost)
                 throw new InvalidOperationException("Nema slobodnih soba za studenta!");

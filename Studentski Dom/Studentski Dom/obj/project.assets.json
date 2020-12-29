@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chuck\\Downloads\\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-Grupa1\\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-Grupa1\\Grupa 1\\Studentski Dom\\Studentski Dom\\Studentski Dom.csproj",
+      "projectUniqueName": "C:\\Users\\chuck\\Desktop\\VVS zadaca 3\\VVS-zadaca-3\\Studentski Dom\\Studentski Dom\\Studentski Dom.csproj",
       "projectName": "Studentski Dom",
-      "projectPath": "C:\\Users\\chuck\\Downloads\\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-Grupa1\\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-Grupa1\\Grupa 1\\Studentski Dom\\Studentski Dom\\Studentski Dom.csproj",
+      "projectPath": "C:\\Users\\chuck\\Desktop\\VVS zadaca 3\\VVS-zadaca-3\\Studentski Dom\\Studentski Dom\\Studentski Dom.csproj",
       "packagesPath": "C:\\Users\\chuck\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chuck\\Downloads\\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-Grupa1\\VerifikacijaIValidacijaSoftvera-Vjezbe-z3-Grupa1\\Grupa 1\\Studentski Dom\\Studentski Dom\\obj\\",
+      "outputPath": "C:\\Users\\chuck\\Desktop\\VVS zadaca 3\\VVS-zadaca-3\\Studentski Dom\\Studentski Dom\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\chuck\\AppData\\Roaming\\NuGet\\NuGet.Config",
