@@ -98,16 +98,11 @@ namespace ClassLibrary1
             {
                 if (s.Kapacitet == zeljeniKapacitet)
                     foreach (Soba s2 in Sobe)
-                    {
                         if (s2.Stanari.Count < zeljeniKapacitet && s2 == s)
-                            slobodnaSoba = s;
-                        //tuning logickih izraza
-                        if (slobodnaSoba == null)
-                            break;
-                    }
-                //tuning logickih izraza
-                if (slobodnaSoba == null)
-                    break; 
+                        {
+                            slobodnaSoba = s;                            
+                        }
+               
             }
             if (slobodnaSoba == null && !fleksibilnost)
                 throw new InvalidOperationException("Nema slobodnih soba za studenta!");
@@ -168,6 +163,28 @@ namespace ClassLibrary1
                     if (slobodnaSoba == null)
                         throw new InvalidOperationException("Nema slobodnih soba istog kapaciteta!");
                 }
+                slobodnaSoba.DodajStanara(student);
+            }
+        }
+
+        public void PremjestajStudentaRefactored(Student student, bool istiKapacitet)
+        {
+            if (Sobe != null && Sobe.Count > 0)
+            {
+                List<Soba> slobodneSobe = Sobe.FindAll(s => s.Stanari.Count < s.Kapacitet && !s.Stanari.Contains(student));
+                if (slobodneSobe == null)
+                    throw new InvalidOperationException("Nema slobodnih soba u domu!");
+
+                Soba trenutnaSoba = Sobe.Find(s => s.Stanari.Contains(student));
+                Soba slobodnaSoba = slobodneSobe.First();
+
+                if (istiKapacitet)
+                {
+                    slobodnaSoba = slobodneSobe.Find(s => s.Kapacitet == trenutnaSoba.Kapacitet);
+                    if (slobodnaSoba == null)
+                        throw new InvalidOperationException("Nema slobodnih soba istog kapaciteta!");
+                }
+
                 slobodnaSoba.DodajStanara(student);
             }
         }

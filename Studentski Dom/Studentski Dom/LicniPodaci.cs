@@ -158,6 +158,24 @@ namespace ClassLibrary1
             Slika = "server.etf.unsa.ba/slike/" + prezime + "_" + dan + mjesec + godina + ".jpg";
         }
 
+        public void AutomatskoPostavljanjeNedostajucihPodatakaRefactored()
+        {
+            if (email != null)
+                throw new ArgumentException("Email je već postavljen!");
+            if (ime != null)
+            {
+                Email = (ime.Substring(0, 1) + prezime).ToLower() + "1@etf.unsa.ba";
+            }
+            string dan = datumRodjenja.Day.ToString();
+            string mjesec = datumRodjenja.Month.ToString();
+            if (dan.Length == 1)
+                dan = "0" + dan;
+            if (mjesec.Length == 1)
+                mjesec = "0" + mjesec;
+
+            Slika = "server.etf.unsa.ba/slike/" + prezime + "_" + dan + mjesec + datumRodjenja.Year.ToString() + ".jpg";
+        }
+
         #endregion
     }
 }
