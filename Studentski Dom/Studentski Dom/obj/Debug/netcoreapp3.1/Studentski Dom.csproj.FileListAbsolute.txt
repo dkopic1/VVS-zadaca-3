@@ -7,3 +7,11 @@ C:\Users\Mehmed\Desktop\VVS-zadaca-3\Studentski Dom\Studentski Dom\obj\Debug\net
 C:\Users\Mehmed\Desktop\VVS-zadaca-3\Studentski Dom\Studentski Dom\obj\Debug\netcoreapp3.1\Studentski Dom.csproj.CoreCompileInputs.cache
 C:\Users\Mehmed\Desktop\VVS-zadaca-3\Studentski Dom\Studentski Dom\obj\Debug\netcoreapp3.1\Studentski Dom.dll
 C:\Users\Mehmed\Desktop\VVS-zadaca-3\Studentski Dom\Studentski Dom\obj\Debug\netcoreapp3.1\Studentski Dom.pdb
+C:\Users\chuck\Desktop\VVS zadaca 3\VVS-zadaca-3\Studentski Dom\Studentski Dom\bin\Debug\netcoreapp3.1\Studentski Dom.deps.json
+C:\Users\chuck\Desktop\VVS zadaca 3\VVS-zadaca-3\Studentski Dom\Studentski Dom\bin\Debug\netcoreapp3.1\Studentski Dom.dll
+C:\Users\chuck\Desktop\VVS zadaca 3\VVS-zadaca-3\Studentski Dom\Studentski Dom\bin\Debug\netcoreapp3.1\Studentski Dom.pdb
+C:\Users\chuck\Desktop\VVS zadaca 3\VVS-zadaca-3\Studentski Dom\Studentski Dom\obj\Debug\netcoreapp3.1\Studentski Dom.csprojAssemblyReference.cache
+C:\Users\chuck\Desktop\VVS zadaca 3\VVS-zadaca-3\Studentski Dom\Studentski Dom\obj\Debug\netcoreapp3.1\Studentski Dom.AssemblyInfoInputs.cache
+C:\Users\chuck\Desktop\VVS zadaca 3\VVS-zadaca-3\Studentski Dom\Studentski Dom\obj\Debug\netcoreapp3.1\Studentski Dom.AssemblyInfo.cs
+C:\Users\chuck\Desktop\VVS zadaca 3\VVS-zadaca-3\Studentski Dom\Studentski Dom\obj\Debug\netcoreapp3.1\Studentski Dom.dll
+C:\Users\chuck\Desktop\VVS zadaca 3\VVS-zadaca-3\Studentski Dom\Studentski Dom\obj\Debug\netcoreapp3.1\Studentski Dom.pdb

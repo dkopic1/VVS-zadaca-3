@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mehmed\\Desktop\\VVS-zadaca-3\\Studentski Dom\\TuningTest\\TuningTest.csproj": {}
+    "C:\\Users\\chuck\\Desktop\\VVS zadaca 3\\VVS-zadaca-3\\Studentski Dom\\TuningTest\\TuningTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mehmed\\Desktop\\VVS-zadaca-3\\Studentski Dom\\Studentski Dom\\Studentski Dom.csproj": {
+    "C:\\Users\\chuck\\Desktop\\VVS zadaca 3\\VVS-zadaca-3\\Studentski Dom\\Studentski Dom\\Studentski Dom.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mehmed\\Desktop\\VVS-zadaca-3\\Studentski Dom\\Studentski Dom\\Studentski Dom.csproj",
+        "projectUniqueName": "C:\\Users\\chuck\\Desktop\\VVS zadaca 3\\VVS-zadaca-3\\Studentski Dom\\Studentski Dom\\Studentski Dom.csproj",
         "projectName": "Studentski Dom",
-        "projectPath": "C:\\Users\\Mehmed\\Desktop\\VVS-zadaca-3\\Studentski Dom\\Studentski Dom\\Studentski Dom.csproj",
-        "packagesPath": "C:\\Users\\Mehmed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mehmed\\Desktop\\VVS-zadaca-3\\Studentski Dom\\Studentski Dom\\obj\\",
+        "projectPath": "C:\\Users\\chuck\\Desktop\\VVS zadaca 3\\VVS-zadaca-3\\Studentski Dom\\Studentski Dom\\Studentski Dom.csproj",
+        "packagesPath": "C:\\Users\\chuck\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chuck\\Desktop\\VVS zadaca 3\\VVS-zadaca-3\\Studentski Dom\\Studentski Dom\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mehmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chuck\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,21 +52,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mehmed\\Desktop\\VVS-zadaca-3\\Studentski Dom\\TuningTest\\TuningTest.csproj": {
+    "C:\\Users\\chuck\\Desktop\\VVS zadaca 3\\VVS-zadaca-3\\Studentski Dom\\TuningTest\\TuningTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mehmed\\Desktop\\VVS-zadaca-3\\Studentski Dom\\TuningTest\\TuningTest.csproj",
+        "projectUniqueName": "C:\\Users\\chuck\\Desktop\\VVS zadaca 3\\VVS-zadaca-3\\Studentski Dom\\TuningTest\\TuningTest.csproj",
         "projectName": "TuningTest",
-        "projectPath": "C:\\Users\\Mehmed\\Desktop\\VVS-zadaca-3\\Studentski Dom\\TuningTest\\TuningTest.csproj",
-        "packagesPath": "C:\\Users\\Mehmed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mehmed\\Desktop\\VVS-zadaca-3\\Studentski Dom\\TuningTest\\obj\\",
+        "projectPath": "C:\\Users\\chuck\\Desktop\\VVS zadaca 3\\VVS-zadaca-3\\Studentski Dom\\TuningTest\\TuningTest.csproj",
+        "packagesPath": "C:\\Users\\chuck\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chuck\\Desktop\\VVS zadaca 3\\VVS-zadaca-3\\Studentski Dom\\TuningTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mehmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chuck\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,8 +79,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Mehmed\\Desktop\\VVS-zadaca-3\\Studentski Dom\\Studentski Dom\\Studentski Dom.csproj": {
-                "projectPath": "C:\\Users\\Mehmed\\Desktop\\VVS-zadaca-3\\Studentski Dom\\Studentski Dom\\Studentski Dom.csproj"
+              "C:\\Users\\chuck\\Desktop\\VVS zadaca 3\\VVS-zadaca-3\\Studentski Dom\\Studentski Dom\\Studentski Dom.csproj": {
+                "projectPath": "C:\\Users\\chuck\\Desktop\\VVS zadaca 3\\VVS-zadaca-3\\Studentski Dom\\Studentski Dom\\Studentski Dom.csproj"
               }
             }
           }
@@ -126,7 +126,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
