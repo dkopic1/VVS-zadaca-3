@@ -94,26 +94,22 @@ namespace ClassLibrary1
         public void UpisUDom(Student student, int zeljeniKapacitet, bool fleksibilnost)
         {
             Soba slobodnaSoba = null;
+            // Tuning 2
             foreach (Soba s in Sobe)
             {
-                if (s.Kapacitet == zeljeniKapacitet)
-                    foreach (Soba s2 in Sobe)
-                        if (s2.Stanari.Count < zeljeniKapacitet && s2 == s)
-                        {
-                            slobodnaSoba = s;                            
-                        }
-               
+                if (s.Kapacitet == zeljeniKapacitet && s.Stanari.Count < zeljeniKapacitet)
+                {
+                    slobodnaSoba = s;
+                    break;
+                }
             }
+
             if (slobodnaSoba == null && !fleksibilnost)
                 throw new InvalidOperationException("Nema slobodnih soba za studenta!");
             else if (slobodnaSoba == null)
             {
-                Soba biloKoja = null;
-                foreach (Soba s in Sobe)
-                {
-                    if (s.Stanari.Count < s.Kapacitet)
-                        biloKoja = s;
-                }
+                // Tuning 3
+                Soba biloKoja = Sobe.Find(s => s.Stanari.Count < s.Kapacitet);
                 if (biloKoja == null)
                     throw new IndexOutOfRangeException("Nema slobodnih soba u domu!");
                 biloKoja.DodajStanara(student);

@@ -14,6 +14,8 @@ namespace TuningTest
 
             Student student = new Student();
 
+            Console.WriteLine("Pocetak");
+
             s.UpisUDom(student, 4, true);
 
             Console.WriteLine("Kraj");
